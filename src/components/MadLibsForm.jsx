@@ -32,7 +32,7 @@ export function MadLibsForm({answers, setAnswers}) {
             setValidForm(true)
         } else if (validForm && !isFormComplete()) {
             setValidForm(false)
-        }
+        } // eslint-disable-next-line
     }, [answers])
 
     const handleChange = (e) => {
